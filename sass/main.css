@@ -498,25 +498,80 @@ body {
 
 /* line 96, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 body {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif;
+  background-color: #e4e0d4; }
 
-/* line 99, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 100, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 section, nav {
   max-width: 1100px;
   width: 100%;
   margin: 0 auto; }
 
+/* line 107, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+.flex-video {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 27.5%;
+  position: relative; }
+
+/* line 116, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+.flex-video iframe,
+.flex-video object,
+.flex-video embed,
+.flex-video video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  left: 0; }
+
+/* line 125, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+/* line 132, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+.clearfix {
+  display: inline-block; }
+
+/* line 134, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+* html .clearfix {
+  height: 1%; }
+
+/* line 136, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+.clearfix {
+  display: block; }
+
+/* line 141, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+.button-light {
+  padding: 0.5em 1em;
+  color: #5c5b59;
+  font-family: "Kalam";
+  background-color: #e4e0d4;
+  border-radius: 0.5em;
+  box-shadow: 0px 5px 0px #e27f2e;
+  transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
+  /* line 149, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+  .button-light:hover {
+    color: #e27f2e;
+    box-shadow: none;
+    border-radius: 0.8em; }
+
 /* line 1, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
 #landing {
   background: #5c5b59 url(../img/sep-light.png) bottom repeat-x;
   color: #e4e0d4;
-  padding: 40px;
-  padding-bottom: 120px; }
+  padding: 50px;
+  padding-bottom: 163px; }
   /* line 7, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
   #landing .navbar {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 50px; }
+    margin-bottom: 60px; }
     /* line 11, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
     #landing .navbar .logo {
       width: 25%;
@@ -538,10 +593,34 @@ section, nav {
           font-family: 'Kalam', sans-serif;
           font-size: 1.5rem;
           color: #e4e0d4;
-          transition: all 100ms ease-in-out; }
+          transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
           /* line 29, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
           #landing .navbar ul li a:hover {
             color: #e27f2e;
-            text-decoration: underline; }
+            padding-bottom: 2px;
+            border-bottom: 2px solid; }
+  /* line 34, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  #landing .landing-hero {
+    display: flex;
+    align-items: center; }
+    /* line 37, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+    #landing .landing-hero .hero-video {
+      position: relative;
+      display: flex;
+      width: 50%;
+      height: 0px;
+      padding-right: 1em; }
+    /* line 43, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+    #landing .landing-hero .hero-text {
+      font-size: 1rem;
+      width: 50%;
+      padding: 0 1em;
+      text-align: center; }
+      /* line 48, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+      #landing .landing-hero .hero-text .hero-head {
+        line-height: 0; }
+      /* line 50, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+      #landing .landing-hero .hero-text .hero-body {
+        padding-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */
