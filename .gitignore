@@ -47,6 +47,5 @@ Temporary Items
 # Site Files
 # =========================
 
-_site
 .sass-cache
 node_modules
