@@ -1,0 +1,50 @@
+#about-section
+  background: $light url(../img/sep-dark.png)
+    position: bottom left
+    repeat: repeat-x
+  padding: 50px
+  padding-bottom: 163px
+
+  section#about
+    color: $dark
+    .head
+      margin: 0 auto
+      width: 100%
+      text-align: center
+      overflow: hidden
+      h1
+        margin: 0.3125em 0
+        background-color: $light
+        position: relative
+        display: inline-block
+        padding: 0 10px
+        &:before
+          content: ""
+          height: 5px
+          //border-top: 1px solid $blue
+          //border-bottom: 1px solid $blue
+          background-color: $blue
+          position: absolute
+          width: 100%
+          top: 40%
+          left: -110%
+        &:after
+          content: ""
+          height: 5px
+          //border-top: 1px solid $blue
+          //border-bottom: 1px solid $blue
+          background-color: $blue
+          position: absolute
+          width: 100%
+          top: 40%
+          left: 110%
+    h2.subhead
+      color: $blue
+    a
+      color: $orange
+      text-decoration: none
+      outline: 0
+      transition: color 150ms ease-in-out
+      &:hover, &:focus
+        color: lighten($orange, 20%)
+
