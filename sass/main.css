@@ -563,297 +563,264 @@ section, nav {
     box-shadow: none;
     border-radius: 0.8em; }
 
-/* line 1, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-#landing-section {
-  background: #5c5b59 url(../img/sep-light.png);
-    background-position: bottom right;
-    background-repeat: repeat-x;
-  color: #e4e0d4;
-  padding: 50px;
-  padding-bottom: 163px; }
-  /* line 9, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-  #landing-section .navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 60px; }
-    /* line 13, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-    #landing-section .navbar .logo {
-      width: 25%;
-      height: 80px;
-      background: url(../img/logo-v2.svg);
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: left center; }
-    /* line 20, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-    #landing-section .navbar ul {
-      list-style: none;
-      margin: auto 0; }
-      /* line 23, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-      #landing-section .navbar ul li {
-        display: inline;
-        margin: 0 20px; }
-        /* line 26, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-        #landing-section .navbar ul li a {
-          font-family: 'Kalam', sans-serif;
-          font-size: 1.5rem;
-          color: #e4e0d4;
-          transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
-          /* line 31, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-          #landing-section .navbar ul li a:hover {
-            color: #e27f2e;
-            padding-bottom: 2px;
-            border-bottom: 2px solid; }
-  /* line 36, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-  #landing-section .landing-hero {
-    display: flex;
-    align-items: center; }
-    /* line 39, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-    #landing-section .landing-hero .hero-video {
-      position: relative;
-      display: flex;
-      width: 50%;
-      height: 0px;
-      padding-right: 1em; }
-    /* line 45, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-    #landing-section .landing-hero .hero-text {
-      font-size: 1rem;
-      width: 50%;
-      padding: 0 1em;
-      text-align: center; }
-      /* line 50, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-      #landing-section .landing-hero .hero-text .hero-head {
-        line-height: 0; }
-      /* line 52, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
-      #landing-section .landing-hero .hero-text .hero-body {
-        padding-bottom: 10px; }
-
-/* line 1, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
-#about-section {
+/* line 155, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+.light {
   background: #e4e0d4 url(../img/sep-dark.png);
     background-position: bottom left;
     background-repeat: repeat-x;
   padding: 50px;
   padding-bottom: 163px; }
+  /* line 161, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+  .light section {
+    color: #5c5b59; }
+
+/* line 164, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+.dark {
+  background: #5c5b59 url(../img/sep-light.png);
+    background-position: bottom right;
+    background-repeat: repeat-x;
+  padding: 50px;
+  padding-bottom: 163px; }
+  /* line 170, C:/dev/nothinbutchange/sass/1-base/_body.sass */
+  .dark section {
+    color: #e4e0d4; }
+
+/* line 2, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+#landing-section .navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px; }
+  /* line 6, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  #landing-section .navbar .logo {
+    width: 25%;
+    height: 80px;
+    background: url(../img/logo-v2.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center; }
+  /* line 13, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  #landing-section .navbar ul {
+    list-style: none;
+    margin: auto 0; }
+    /* line 16, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+    #landing-section .navbar ul li {
+      display: inline;
+      margin: 0 20px; }
+      /* line 19, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+      #landing-section .navbar ul li a {
+        font-family: 'Kalam', sans-serif;
+        font-size: 1.5rem;
+        color: #e4e0d4;
+        transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
+        /* line 24, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+        #landing-section .navbar ul li a:hover {
+          color: #e27f2e;
+          padding-bottom: 2px;
+          border-bottom: 2px solid; }
+
+/* line 28, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+#landing-section .landing-hero {
+  display: flex;
+  align-items: center; }
+  /* line 31, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  #landing-section .landing-hero .hero-video {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: 0px;
+    padding-right: 1em; }
+  /* line 37, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  #landing-section .landing-hero .hero-text {
+    font-size: 1rem;
+    width: 50%;
+    padding: 0 1em;
+    text-align: center; }
+    /* line 42, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+    #landing-section .landing-hero .hero-text .hero-head {
+      line-height: 0; }
+    /* line 44, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+    #landing-section .landing-hero .hero-text .hero-body {
+      padding-bottom: 10px; }
+
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
+#about-section section#about .head {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  overflow: hidden; }
   /* line 8, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
-  #about-section section#about {
-    color: #5c5b59; }
-    /* line 10, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
-    #about-section section#about .head {
-      margin: 0 auto;
+  #about-section section#about .head h1 {
+    margin: 0.3125em 0;
+    background-color: #e4e0d4;
+    position: relative;
+    display: inline-block;
+    padding: 0 10px; }
+    /* line 14, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
+    #about-section section#about .head h1:before {
+      content: "";
+      height: 5px;
+      background-color: #45629c;
+      position: absolute;
       width: 100%;
-      text-align: center;
-      overflow: hidden; }
-      /* line 15, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
-      #about-section section#about .head h1 {
-        margin: 0.3125em 0;
-        background-color: #e4e0d4;
-        position: relative;
-        display: inline-block;
-        padding: 0 10px; }
-        /* line 21, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
-        #about-section section#about .head h1:before {
-          content: "";
-          height: 5px;
-          background-color: #45629c;
-          position: absolute;
-          width: 100%;
-          top: 40%;
-          left: -110%; }
-        /* line 31, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
-        #about-section section#about .head h1:after {
-          content: "";
-          height: 5px;
-          background-color: #45629c;
-          position: absolute;
-          width: 100%;
-          top: 40%;
-          left: 110%; }
-    /* line 41, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
-    #about-section section#about h2.subhead {
-      color: #45629c; }
-    /* line 43, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
-    #about-section section#about a {
-      color: #e27f2e;
-      text-decoration: none;
-      outline: 0;
-      transition: color 150ms ease-in-out; }
-      /* line 48, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
-      #about-section section#about a:hover, #about-section section#about a:focus {
-        color: #eeb688; }
+      top: 40%;
+      left: -110%; }
+    /* line 24, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
+    #about-section section#about .head h1:after {
+      content: "";
+      height: 5px;
+      background-color: #45629c;
+      position: absolute;
+      width: 100%;
+      top: 40%;
+      left: 110%; }
 
-/* line 1, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
-#shop-section {
-  background: #5c5b59 url(../img/sep-light.png);
-    background-position: bottom right;
-    background-repeat: repeat-x;
-  padding: 50px;
-  padding-bottom: 163px; }
+/* line 34, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
+#about-section section#about h2.subhead {
+  color: #45629c; }
+
+/* line 36, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
+#about-section section#about a {
+  color: #e27f2e;
+  text-decoration: none;
+  outline: 0;
+  transition: color 150ms ease-in-out; }
+  /* line 41, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
+  #about-section section#about a:hover, #about-section section#about a:focus {
+    color: #eeb688; }
+
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
+#shop-section section#shop .head {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  overflow: hidden; }
   /* line 8, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
-  #shop-section section#shop {
-    color: #e4e0d4; }
-    /* line 10, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
-    #shop-section section#shop .head {
-      margin: 0 auto;
+  #shop-section section#shop .head h1 {
+    margin: 0.3125em 0;
+    background-color: #5c5b59;
+    position: relative;
+    display: inline-block;
+    padding: 0 10px; }
+    /* line 14, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
+    #shop-section section#shop .head h1:before {
+      content: "";
+      height: 5px;
+      background-color: #e4e0d4;
+      position: absolute;
       width: 100%;
-      text-align: center;
-      overflow: hidden; }
-      /* line 15, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
-      #shop-section section#shop .head h1 {
-        margin: 0.3125em 0;
-        background-color: #5c5b59;
-        position: relative;
-        display: inline-block;
-        padding: 0 10px; }
-        /* line 21, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
-        #shop-section section#shop .head h1:before {
-          content: "";
-          height: 5px;
-          background-color: #e4e0d4;
-          position: absolute;
-          width: 100%;
-          top: 40%;
-          left: -110%; }
-        /* line 31, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
-        #shop-section section#shop .head h1:after {
-          content: "";
-          height: 5px;
-          background-color: #e4e0d4;
-          position: absolute;
-          width: 100%;
-          top: 40%;
-          left: 110%; }
+      top: 40%;
+      left: -110%; }
+    /* line 24, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
+    #shop-section section#shop .head h1:after {
+      content: "";
+      height: 5px;
+      background-color: #e4e0d4;
+      position: absolute;
+      width: 100%;
+      top: 40%;
+      left: 110%; }
 
-/* line 1, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
-#gallery-section {
-  background: #e4e0d4 url(../img/sep-dark.png);
-    background-position: bottom left;
-    background-repeat: repeat-x;
-  padding: 50px;
-  padding-bottom: 163px; }
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+#gallery-section section#gallery .head {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  overflow: hidden; }
   /* line 8, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
-  #gallery-section section#gallery {
-    color: #5c5b59; }
-    /* line 10, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
-    #gallery-section section#gallery .head {
-      margin: 0 auto;
+  #gallery-section section#gallery .head h1 {
+    margin: 0.3125em 0;
+    background-color: #e4e0d4;
+    position: relative;
+    display: inline-block;
+    padding: 0 10px; }
+    /* line 14, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+    #gallery-section section#gallery .head h1:before {
+      content: "";
+      height: 5px;
+      background-color: #45629c;
+      position: absolute;
       width: 100%;
-      text-align: center;
-      overflow: hidden; }
-      /* line 15, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
-      #gallery-section section#gallery .head h1 {
-        margin: 0.3125em 0;
-        background-color: #e4e0d4;
-        position: relative;
-        display: inline-block;
-        padding: 0 10px; }
-        /* line 21, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
-        #gallery-section section#gallery .head h1:before {
-          content: "";
-          height: 5px;
-          background-color: #45629c;
-          position: absolute;
-          width: 100%;
-          top: 40%;
-          left: -110%; }
-        /* line 31, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
-        #gallery-section section#gallery .head h1:after {
-          content: "";
-          height: 5px;
-          background-color: #45629c;
-          position: absolute;
-          width: 100%;
-          top: 40%;
-          left: 110%; }
+      top: 40%;
+      left: -110%; }
+    /* line 24, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+    #gallery-section section#gallery .head h1:after {
+      content: "";
+      height: 5px;
+      background-color: #45629c;
+      position: absolute;
+      width: 100%;
+      top: 40%;
+      left: 110%; }
 
-/* line 1, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
-#faq-section {
-  background: #5c5b59 url(../img/sep-light.png);
-    background-position: bottom right;
-    background-repeat: repeat-x;
-  padding: 50px;
-  padding-bottom: 163px; }
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
+#faq-section section#faq .head {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  overflow: hidden; }
   /* line 8, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
-  #faq-section section#faq {
-    color: #e4e0d4; }
-    /* line 10, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
-    #faq-section section#faq .head {
-      margin: 0 auto;
+  #faq-section section#faq .head h1 {
+    margin: 0.3125em 0;
+    background-color: #5c5b59;
+    position: relative;
+    display: inline-block;
+    padding: 0 10px; }
+    /* line 14, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
+    #faq-section section#faq .head h1:before {
+      content: "";
+      height: 5px;
+      background-color: #e4e0d4;
+      position: absolute;
       width: 100%;
-      text-align: center;
-      overflow: hidden; }
-      /* line 15, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
-      #faq-section section#faq .head h1 {
-        margin: 0.3125em 0;
-        background-color: #5c5b59;
-        position: relative;
-        display: inline-block;
-        padding: 0 10px; }
-        /* line 21, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
-        #faq-section section#faq .head h1:before {
-          content: "";
-          height: 5px;
-          background-color: #e4e0d4;
-          position: absolute;
-          width: 100%;
-          top: 40%;
-          left: -110%; }
-        /* line 31, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
-        #faq-section section#faq .head h1:after {
-          content: "";
-          height: 5px;
-          background-color: #e4e0d4;
-          position: absolute;
-          width: 100%;
-          top: 40%;
-          left: 110%; }
+      top: 40%;
+      left: -110%; }
+    /* line 24, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
+    #faq-section section#faq .head h1:after {
+      content: "";
+      height: 5px;
+      background-color: #e4e0d4;
+      position: absolute;
+      width: 100%;
+      top: 40%;
+      left: 110%; }
 
-/* line 1, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
-#contact-section {
-  background: #e4e0d4 url(../img/sep-dark.png);
-    background-position: bottom left;
-    background-repeat: repeat-x;
-  padding: 50px;
-  padding-bottom: 163px; }
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+#contact-section section#contact .head {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  overflow: hidden; }
   /* line 8, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
-  #contact-section section#contact {
-    color: #5c5b59; }
-    /* line 10, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
-    #contact-section section#contact .head {
-      margin: 0 auto;
+  #contact-section section#contact .head h1 {
+    margin: 0.3125em 0;
+    background-color: #e4e0d4;
+    position: relative;
+    display: inline-block;
+    padding: 0 10px; }
+    /* line 14, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    #contact-section section#contact .head h1:before {
+      content: "";
+      height: 5px;
+      background-color: #45629c;
+      position: absolute;
       width: 100%;
-      text-align: center;
-      overflow: hidden; }
-      /* line 15, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
-      #contact-section section#contact .head h1 {
-        margin: 0.3125em 0;
-        background-color: #e4e0d4;
-        position: relative;
-        display: inline-block;
-        padding: 0 10px; }
-        /* line 21, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
-        #contact-section section#contact .head h1:before {
-          content: "";
-          height: 5px;
-          background-color: #45629c;
-          position: absolute;
-          width: 100%;
-          top: 40%;
-          left: -110%; }
-        /* line 31, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
-        #contact-section section#contact .head h1:after {
-          content: "";
-          height: 5px;
-          background-color: #45629c;
-          position: absolute;
-          width: 100%;
-          top: 40%;
-          left: 110%; }
+      top: 40%;
+      left: -110%; }
+    /* line 24, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    #contact-section section#contact .head h1:after {
+      content: "";
+      height: 5px;
+      background-color: #45629c;
+      position: absolute;
+      width: 100%;
+      top: 40%;
+      left: 110%; }
 
 /* line 1, C:/dev/nothinbutchange/sass/2-sections/_footer.sass */
 footer {
   background-color: #5c5b59;
   color: #e4e0d4;
   text-align: center;
-  padding: 5em; }
+  padding: 4em; }
 
 /*# sourceMappingURL=main.css.map */
