@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
 
@@ -17,13 +18,13 @@
     <nav class="navbar">
       <div class="logo"></div>
       <ul>
-        <li><a href="#about">About</a></li>
+        <li><a class="scroll" href="#about">About</a></li>
 <!--
-        <li><a href="#shop">Shop</a></li>
-        <li><a href="#gallery">Gallery</a></li>
+        <li><a class="scroll" href="#shop">Shop</a></li>
+        <li><a class="scroll" href="#gallery">Gallery</a></li>
 -->
-        <li><a href="#faq">FAQ</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a class="scroll" href="#faq">FAQ</a></li>
+        <li><a class="scroll" href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -41,7 +42,9 @@
 
   <div id="about-section" class="light">
     <section id="about">
-      <div class="head"><h1>About Us</h1></div>
+      <div class="head">
+        <h1>About Us</h1>
+      </div>
       <h2 class="subhead">Who we are and what we do</h2>
       <p>Nothin’ But Change is an initiative which is funded by the <a href="http://stong.yorku.ca/agents-of-change-project/">Agents of Change Project</a> at York University. Our mission is to raise awareness about homelessness in the GTA and accrue funds to help people experiencing homelessness. While it is important that our project is able to help the cause of homelessness, we place great importance on making sure that our project is sustainable for many years to come, and will empower people to make a difference against homelessness. In all, our vision is to provide leadership and support to end homelessness.</p>
       <h2 class="subhead">Why is this important?</h2>
@@ -55,7 +58,7 @@
     </section>
   </div>
 
-<!--
+  <!--
   <div id="shop-section" class="dark">
     <section id="shop">
       <div class="head"><h1>Shop</h1></div>
@@ -70,41 +73,172 @@
 -->
 
   <div id="faq-section" class="dark">
-    <section id="faq">
-      <div class="head"><h1>Frequently Asked Questions</h1></div>
-
-      <h2 class="question">Who started Nothin' But Change?</h2>
-      <p class="answer">We are three students at York University with a desire to better the housing situation in the greater Toronto area. The Agents of Change project at York University gave us the opportunity to draft a project proposal, which was then reviewed by the steering committee. Our project was approved and the Faculty of Health consequently funded our initiative of $500 to pursue our plan of action.</p>
-
-      <h2 class="question">Does Nothin’ But Change only support RaisingTheRoof and 360 Kids?</h2>
-      <p class="answer">Currently, all of our profit will go towards these two charities. However, if there is a particular charity of interest that you would like to support with your purchase, feel free to contact us and we will try our best to accommodate your request.</p>
-
-      <h2 class="question">Can I volunteer for Nothin’ But Change?</h2>
-      <p class="answer">Definitely! We are looking for individuals who are excited about creating change in the community and we look forward to working with many of you. If you would like to volunteer with us, please contact us at <a href="mailto:hello@nothinbutchange.com">hello@nothinbutchange.com</a></p>
-
-      <h2 class="question">How will my clothes get delivered?</h2>
-      <p class="answer">to be written...</p>
-
-      <h2 class="question">How long does it take for my order to arrive?</h2>
-      <p class="answer">to be written...</p>
-
-      <h2 class="question">Where does Nothin' But Change get its shirts from?</h2>
-      <p class="answer">We value quality products which lead us to order our t-shirts from American Apparel. The t-shirts are made from 100% fine ring-spun combed cotton, meaning that they are lightweight, smooth and tightly knit.</p>
-
-      <h2 class="question">How do I know what size will fit me?</h2>
-      <p class="answer">You can find the sizing charts <a href="http://www.americanapparel.net/sizing/default.asp?c=5A5082&chart=mu.shirts">here</a>.</p>
-
+    <section id="faq" class="clearfix">
+      <div class="head">
+        <h1>Frequently Asked Questions</h1>
+      </div>
+      <div class="accordion" id="accordionArea">
+        <div class="accordion-group">
+          <div class="accordion-heading accordionize">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#oneArea">
+              Who started Nothin’ But Change?
+              <span class="font-icon-arrow-simple-down"></span>
+            </a>
+          </div>
+          <div id="oneArea" class="accordion-body collapse">
+            <div class="accordion-inner">
+              We are three students at York University with a desire to better the housing situation in the greater Toronto area. The Agents of Change project at York University gave us the opportunity to draft a project proposal, which was then reviewed by the steering committee. Our project was approved and the Faculty of Health consequently funded our initiative $500 to pursue our plan of action.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading accordionize">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#twoArea">
+              Does Nothin’ But Change only support RaisingTheRoof and 360 Kids?
+              <span class="font-icon-arrow-simple-down"></span>
+            </a>
+          </div>
+          <div id="twoArea" class="accordion-body collapse">
+            <div class="accordion-inner">
+              Currently, all of our profit will go towards these two charities. However, if there is a particular charity of interest that you would like to support with your purchase, feel free to contact us and we will try our best to accommodate your request.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading accordionize">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#threeArea">
+              Can I volunteer for Nothin’ But Change?
+              <span class="font-icon-arrow-simple-down"></span>
+            </a>
+          </div>
+          <div id="threeArea" class="accordion-body collapse">
+            <div class="accordion-inner">
+              Definitely! We are looking for individuals who are excited about creating change in the community and we look forward to working with many of you. If you would like to volunteer with us, please contact us at <a href="mailto:hello@nothinbutchange.com">hello@nothinbutchange.com</a>.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading accordionize">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fourArea">
+              How will my clothes get delivered?
+              <span class="font-icon-arrow-simple-down"></span>
+            </a>
+          </div>
+          <div id="fourArea" class="accordion-body collapse">
+            <div class="accordion-inner">
+              To be written...
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading accordionize">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#fiveArea">
+              How long does it take for my order to arrive?
+              <span class="font-icon-arrow-simple-down"></span>
+            </a>
+          </div>
+          <div id="fiveArea" class="accordion-body collapse">
+            <div class="accordion-inner">
+              To be written...
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading accordionize">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#sixArea">
+              Where does Nothin’ But Change get its shirts from?
+              <span class="font-icon-arrow-simple-down"></span>
+            </a>
+          </div>
+          <div id="sixArea" class="accordion-body collapse">
+            <div class="accordion-inner">
+              We value quality products which lead us to order our t-shirts from <a href="http://store.americanapparel.net/">American Apparel</a>. The t-shirts are made from 100% fine ring-spun combed cotton, meaning that they are lightweight, smooth and tightly knit.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading accordionize">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordionArea" href="#sevenArea">
+              How do I know what size will fit me?
+              <span class="font-icon-arrow-simple-down"></span>
+            </a>
+          </div>
+          <div id="sevenArea" class="accordion-body collapse">
+            <div class="accordion-inner">
+              You can find the sizing charts <a href="http://www.americanapparel.net/sizing/default.asp?c=5A5082&chart=mu.shirts">here</a>.
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="follow">Any other questions you may have, may be submitted to our support email by filling out the form below.</p>
     </section>
   </div>
 
   <div id="contact-section" class="light">
-    <section id="contact">
-      <div class="head"><h1>Contact Us</h1></div>
+    <section id="contact" class="clearfix">
+      <div class="head">
+        <h1>Contact Us</h1>
+        <p>Have a question? Use the form below to drop us an email for any questions you might have.</p>
+      </div>
+      <div class="span9">
+        <form id="contact-form" class="contact-form" action="#">
+          <p class="contact-name">
+            <input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
+          </p>
+          <p class="contact-email">
+            <input id="contact_email" type="text" placeholder="Email Address" value="" name="email" />
+          </p>
+          <p class="contact-message">
+            <textarea id="contact_message" placeholder="Your Message" name="message" rows="8" cols="40"></textarea>
+          </p>
+          <p class="contact-submit">
+            <a id="contact-submit" class="submit" href="mailto:hello@nothinbutchange.com">Send Your Email</a>
+          </p>
+          <div id="response"></div>
+        </form>
+      </div>
+      <div class="span3">
+        <div class="contact-details">
+          <h3>Contact Details</h3>
+            <ul>
+              <li><a href="mailto:hello@nothinbutchange.com">hello@nothinbutchange.com</a></li>
+              <li>(123) 456-7890</li>
+              <li>
+                York University
+                <br>
+                4700 Keele Street
+                <br>
+                Toronto, ON
+                <br>
+                M3J 1P3
+              </li>
+            </ul>
+        </div>
+      </div>
     </section>
   </div>
 
-  <footer>&copy; Copyright 2015</footer>
+  <div class="dark" id="social-area">
+    <section id="social">
+      <ul>
+        <li><a href="#" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+        <li><a href="#" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
+        <li><a href="#" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
+        <li><a href="#" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
+        <li><a href="#" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+        <li><a href="#" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+        <li><a href="#" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+        <li><a href="#" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
+        <li><a href="#" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
+      </ul>
+    </section>
+  </div>
 
+  <footer>&copy; 2015 Nothin' but Change. Website designed by <a href="http://hussainabbas.com" target="_blank">Hussain Abbas</a>.</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="http://bl4ck0ut.com/2sexy4u/_include/js/bootstrap.min.js"></script>
   <script src="js/scripts.js"></script>
 </body>
+
 </html>

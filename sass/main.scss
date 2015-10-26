@@ -2,12 +2,14 @@
 @import
   "0-tools/fonts",
   "0-tools/bourbon/bourbon",
-  "0-tools/normalize";
+  "0-tools/normalize",
+  "0-tools/icons";
 
 // 1-base
 @import
   "1-base/vars",
-  "1-base/body";
+  "1-base/body",
+  "1-base/accordian";
 
 // 2-sections
 @import
@@ -17,4 +19,5 @@
   "2-sections/gallery",
   "2-sections/faq",
   "2-sections/contact",
+  "2-sections/social",
   "2-sections/footer";
