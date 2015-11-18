@@ -6,7 +6,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 9, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 9, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -18,7 +18,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 19, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 19, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 body {
   margin: 0; }
 
@@ -30,7 +30,7 @@ body {
  * and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
-/* line 45, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 45, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 article,
 aside,
 details,
@@ -50,7 +50,7 @@ summary {
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
-/* line 57, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 57, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -64,7 +64,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 67, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 67, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -73,7 +73,7 @@ audio:not([controls]) {
  * Address `[hidden]` styling not present in IE 8/9/10.
  * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
  */
-/* line 78, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 78, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 [hidden],
 template {
   display: none; }
@@ -83,14 +83,14 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-/* line 89, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 89, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 a {
   background-color: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 98, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 98, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -100,14 +100,14 @@ a:hover {
 /**
  * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
  */
-/* line 109, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 109, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
  */
-/* line 118, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 118, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
@@ -115,7 +115,7 @@ strong {
 /**
  * Address styling not present in Safari and Chrome.
  */
-/* line 126, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 126, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 dfn {
   font-style: italic; }
 
@@ -123,7 +123,7 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-/* line 135, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 135, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -131,7 +131,7 @@ h1 {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 144, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 144, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -139,14 +139,14 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 153, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 153, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 162, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 162, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -154,11 +154,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 169, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 169, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 173, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 173, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
@@ -167,14 +167,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9/10.
  */
-/* line 184, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 184, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 img {
   border: 0; }
 
 /**
  * Correct overflow not hidden in IE 9/10/11.
  */
-/* line 192, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 192, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -183,14 +183,14 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari.
  */
-/* line 203, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 203, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 211, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 211, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -199,14 +199,14 @@ hr {
 /**
  * Contain overflow in all browsers.
  */
-/* line 221, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 221, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 pre {
   overflow: auto; }
 
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
-/* line 232, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 232, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 code,
 kbd,
 pre,
@@ -226,7 +226,7 @@ samp {
  * 2. Correct font properties not being inherited.
  * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
  */
-/* line 256, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 256, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 button,
 input,
 optgroup,
@@ -242,7 +242,7 @@ textarea {
 /**
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
-/* line 266, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 266, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 button {
   overflow: visible; }
 
@@ -252,7 +252,7 @@ button {
  * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
  * Correct `select` style inheritance in Firefox.
  */
-/* line 278, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 278, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 button,
 select {
   text-transform: none; }
@@ -264,7 +264,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 293, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 293, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 button,
 html input[type="button"], input[type="reset"],
 input[type="submit"] {
@@ -276,7 +276,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 303, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 303, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -284,7 +284,7 @@ html input[disabled] {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 312, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 312, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -294,7 +294,7 @@ input::-moz-focus-inner {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 322, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 322, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 input {
   line-height: normal; }
 
@@ -305,7 +305,7 @@ input {
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
-/* line 335, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 335, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -318,7 +318,7 @@ input[type="radio"] {
  * `font-size` values of the `input`, it causes the cursor style of the
  * decrement button to change from `default` to `text`.
  */
-/* line 347, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 347, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -328,7 +328,7 @@ input[type="number"]::-webkit-outer-spin-button {
  * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 357, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 357, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -342,7 +342,7 @@ input[type="search"] {
  * Safari (but not Chrome) clips the cancel button when the search input has
  * padding (and `textfield` appearance).
  */
-/* line 371, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 371, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -350,7 +350,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 379, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 379, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -360,7 +360,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9/10/11.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 390, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 390, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -370,7 +370,7 @@ legend {
 /**
  * Remove default vertical scrollbar in IE 8/9/10/11.
  */
-/* line 399, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 399, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -378,7 +378,7 @@ textarea {
  * Don't inherit the `font-weight` (applied by a rule above).
  * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
  */
-/* line 408, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 408, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 optgroup {
   font-weight: bold; }
 
@@ -387,12 +387,12 @@ optgroup {
 /**
  * Remove most spacing between table cells.
  */
-/* line 419, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 419, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 425, c:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
+/* line 425, C:/dev/nothinbutchange/sass/0-tools/_normalize.scss */
 td,
 th {
   padding: 0; }
@@ -404,7 +404,7 @@ th {
   font-weight: normal;
   font-style: normal; }
 
-/* line 12, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 12, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icons';
   speak: none;
@@ -417,53 +417,53 @@ th {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 26, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 26, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 .icon-youtube:before {
   content: "\e023"; }
 
-/* line 29, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 29, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 .icon-twitter:before {
   content: "\e02a"; }
 
-/* line 32, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 32, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 .icon-linkedin:before {
   content: "\e035"; }
 
-/* line 35, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 35, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 .icon-google-plus:before {
   content: "\e038"; }
 
-/* line 38, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 38, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 .icon-facebook:before {
   content: "\e03c"; }
 
-/* line 41, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 41, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 .icon-up:before {
   content: "\e0d1"; }
 
-/* line 44, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 44, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 .icon-down:before {
   content: "\e0d7"; }
 
-/* line 47, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 47, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 .icon-up2:before {
   content: "\e0e2"; }
 
-/* line 50, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 50, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 .icon-down2:before {
   content: "\e0e8"; }
 
-/* line 53, c:/dev/nothinbutchange/sass/0-tools/_icons.scss */
+/* line 53, C:/dev/nothinbutchange/sass/0-tools/_icons.scss */
 .icon-instagram:before {
   content: "\e904"; }
 
 /* Preload images */
-/* line 2, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 2, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 body:after {
   content: url(../img/lightbox/close.png) url(../img/lightbox/loading.gif) url(../img/lightbox/prev.png) url(../img/lightbox/next.png);
   display: none; }
 
-/* line 7, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 7, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lightboxOverlay {
   position: absolute;
   top: 0;
@@ -474,7 +474,7 @@ body:after {
   opacity: 0.8;
   display: none; }
 
-/* line 18, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 18, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lightbox {
   position: absolute;
   left: 0;
@@ -484,7 +484,7 @@ body:after {
   line-height: 0;
   font-weight: normal; }
 
-/* line 28, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 28, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lightbox .lb-image {
   display: block;
   height: auto;
@@ -495,11 +495,11 @@ body:after {
   -o-border-radius: 3px;
   border-radius: 3px; }
 
-/* line 39, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 39, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lightbox a img {
   border: none; }
 
-/* line 43, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 43, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-outerContainer {
   position: relative;
   background-color: white;
@@ -513,17 +513,17 @@ body:after {
   -o-border-radius: 4px;
   border-radius: 4px; }
 
-/* line 57, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 57, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-outerContainer:after {
   content: "";
   display: table;
   clear: both; }
 
-/* line 63, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 63, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-container {
   padding: 4px; }
 
-/* line 67, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 67, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-loader {
   position: absolute;
   top: 43%;
@@ -533,7 +533,7 @@ body:after {
   text-align: center;
   line-height: 0; }
 
-/* line 77, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 77, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-cancel {
   display: block;
   width: 32px;
@@ -541,7 +541,7 @@ body:after {
   margin: 0 auto;
   background: url(../img/lightbox/loading.gif) no-repeat; }
 
-/* line 85, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 85, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-nav {
   position: absolute;
   top: 0;
@@ -550,22 +550,22 @@ body:after {
   width: 100%;
   z-index: 10; }
 
-/* line 94, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 94, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-container > .nav {
   left: 0; }
 
-/* line 98, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 98, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-nav a {
   outline: none;
   background-image: url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="); }
 
-/* line 103, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 103, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-prev, .lb-next {
   height: 100%;
   cursor: pointer;
   display: block; }
 
-/* line 109, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 109, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-nav a.lb-prev {
   width: 34%;
   left: 0;
@@ -578,12 +578,12 @@ body:after {
   -o-transition: opacity 0.6s;
   transition: opacity 0.6s; }
 
-/* line 122, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 122, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-nav a.lb-prev:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 
-/* line 127, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 127, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-nav a.lb-next {
   width: 64%;
   right: 0;
@@ -596,12 +596,12 @@ body:after {
   -o-transition: opacity 0.6s;
   transition: opacity 0.6s; }
 
-/* line 140, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 140, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-nav a.lb-next:hover {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 
-/* line 145, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 145, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-dataContainer {
   margin: 0 auto;
   padding-top: 5px;
@@ -614,31 +614,31 @@ body:after {
   -webkit-border-bottom-right-radius: 4px;
   border-bottom-right-radius: 4px; }
 
-/* line 158, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 158, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-dataContainer:after {
   content: "";
   display: table;
   clear: both; }
 
-/* line 164, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 164, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-data {
   padding: 0 4px;
   color: #ccc; }
 
-/* line 169, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 169, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-data .lb-details {
   width: 85%;
   float: left;
   text-align: left;
   line-height: 1.1em; }
 
-/* line 176, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 176, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-data .lb-caption {
   font-size: 13px;
   font-weight: bold;
   line-height: 1em; }
 
-/* line 182, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 182, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-data .lb-number {
   display: block;
   clear: left;
@@ -646,7 +646,7 @@ body:after {
   font-size: 12px;
   color: #999999; }
 
-/* line 190, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 190, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-data .lb-close {
   display: block;
   float: right;
@@ -662,65 +662,65 @@ body:after {
   -o-transition: opacity 0.2s;
   transition: opacity 0.2s; }
 
-/* line 206, c:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
+/* line 206, C:/dev/nothinbutchange/sass/0-tools/_lightbox.scss */
 .lb-data .lb-close:hover {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1; }
 
-/* line 4, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 4, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #e27f2e;
   font-family: "Kalam";
   font-weight: bold; }
 
-/* line 9, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 9, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .gigantic {
   font-size: 110px;
   line-height: 1.09;
   letter-spacing: -2px; }
 
-/* line 14, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 14, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .huge, h1 {
   font-size: 68px;
   line-height: 1.05;
   letter-spacing: -1px; }
 
-/* line 19, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 19, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .large, h2 {
   font-size: 42px;
   line-height: 1.14; }
 
-/* line 23, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 23, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .bigger, h3 {
   font-size: 26px;
   line-height: 1.38; }
 
-/* line 27, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 27, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .big, h4 {
   font-size: 22px;
   line-height: 1.38; }
 
-/* line 31, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 31, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .small, small {
   font-size: 10px;
   line-height: 1.2; }
 
-/* line 35, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 35, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 p, li {
   font-size: 1.2em;
   line-height: 1.5; }
 
-/* line 39, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 39, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 em {
   font-style: italic; }
 
-/* line 42, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 42, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 strong {
   font-weight: bold; }
 
-/* line 45, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 45, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 hr {
   border: solid #ddd;
   border-width: 1px 0 0;
@@ -728,66 +728,66 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
-/* line 52, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 52, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 ul {
   margin: 0;
   padding: 0; }
 
-/* line 60, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 60, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 a {
   color: #45629c;
   text-decoration: none;
   outline: 0;
   transition: color 150ms ease-in-out; }
 
-/* line 66, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 66, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 a:hover, a:focus {
   color: #8098c7; }
 
-/* line 73, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 73, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 ::selection {
   background: #e4e0d4; }
 
-/* line 76, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 76, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 ::-moz-selection {
   background: #e4e0d4; }
 
-/* line 79, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 79, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 img::selection {
   background: transparent; }
 
-/* line 82, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 82, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 img::-moz-selection {
   background: transparent; }
 
-/* line 85, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 85, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 body {
   -webkit-tap-highlight-color: #e4e0d4; }
 
-/* line 93, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 93, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 html,
 body {
   min-height: 100vh; }
 
-/* line 96, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 96, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 body {
   font-family: 'Lato', sans-serif;
   background-color: #fff; }
 
-/* line 100, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 100, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 section {
   max-width: 1100px;
   width: 100%;
   margin: 0 auto; }
 
-/* line 107, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 107, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .flex-video {
   height: 0;
   overflow: hidden;
   padding-bottom: 27.5%;
   position: relative; }
 
-/* line 116, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 116, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .flex-video iframe,
 .flex-video object,
 .flex-video embed,
@@ -798,7 +798,7 @@ section {
   width: 100%;
   left: 0; }
 
-/* line 125, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 125, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -807,53 +807,53 @@ section {
   clear: both;
   height: 0; }
 
-/* line 132, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 132, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .clearfix {
   display: inline-block; }
 
-/* line 134, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 134, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 * html .clearfix {
   height: 1%; }
 
-/* line 136, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 136, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .clearfix {
   display: block; }
 
-/* line 141, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 141, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .button-light {
   padding: 0.5em 1em;
   color: #5c5b59;
   background-color: #e4e0d4;
   box-shadow: 0px 5px 0px #e27f2e;
   transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
-  /* line 147, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+  /* line 147, C:/dev/nothinbutchange/sass/1-base/_body.sass */
   .button-light:hover {
     color: #e27f2e;
     box-shadow: none; }
 
-/* line 152, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 152, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .light {
   background: #e4e0d4 url(../img/sep-dark.png);
     background-position: bottom left;
     background-repeat: repeat-x;
   padding: 50px;
   padding-bottom: 163px; }
-  /* line 158, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+  /* line 158, C:/dev/nothinbutchange/sass/1-base/_body.sass */
   .light section {
     color: #5c5b59; }
 
-/* line 161, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 161, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 .dark {
   background: #5c5b59 url(../img/sep-light.png);
     background-position: bottom right;
     background-repeat: repeat-x;
   padding: 50px;
   padding-bottom: 163px; }
-  /* line 167, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+  /* line 167, C:/dev/nothinbutchange/sass/1-base/_body.sass */
   .dark section {
     color: #e4e0d4; }
 
-/* line 172, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 172, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 #back-to-top {
   display: none;
   width: 70px;
@@ -867,7 +867,7 @@ section {
   box-shadow: 0px -10px 0px #e27f2e;
   transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
 
-/* line 185, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 185, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 #back-to-top i {
   margin: 0;
   position: absolute;
@@ -878,12 +878,12 @@ section {
   opacity: 0.3;
   transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
 
-/* line 195, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 195, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 #back-to-top:hover {
   height: 60px;
   box-shadow: 0px -10px 0px #45629c; }
 
-/* line 199, c:/dev/nothinbutchange/sass/1-base/_body.sass */
+/* line 199, C:/dev/nothinbutchange/sass/1-base/_body.sass */
 #back-to-top:hover i {
   line-height: 60px;
   color: #e27f2e;
@@ -892,11 +892,11 @@ section {
 /* ==================================================
    Accordion & Toggle
 ================================================== */
-/* line 5, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 5, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion {
   margin-bottom: 20px; }
 
-/* line 9, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 9, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-group {
   margin-bottom: 4px;
   border: none;
@@ -904,11 +904,11 @@ section {
   -moz-border-radius: 0;
   border-radius: 0; }
 
-/* line 17, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 17, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading {
   border-bottom: 0 none; }
 
-/* line 21, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 21, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading .accordion-toggle {
   position: relative;
   display: block;
@@ -924,26 +924,26 @@ section {
   -o-transition: all 0.1s linear 0s;
   transition: all 0.1s linear 0s; }
 
-/* line 38, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 38, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-toggle {
   cursor: pointer; }
 
-/* line 43, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 43, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading:hover .accordion-toggle,
 .accordion-heading:hover .accordion-toggle.inactive {
   background: #e27f2e;
   color: #FFFFFF; }
 
-/* line 48, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 48, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading .accordion-toggle.active {
   background: #45629c;
   color: #FFFFFF; }
 
-/* line 53, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 53, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading .accordion-toggle.inactive {
   background: #5c5b59; }
 
-/* line 58, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 58, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading.accordionize .accordion-toggle span,
 .accordion-heading.togglize .accordion-toggle span {
   position: absolute;
@@ -958,16 +958,16 @@ section {
   -o-transition: all 0.1s linear 0s;
   transition: all 0.1s linear 0s; }
 
-/* line 73, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 73, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading:hover .accordion-toggle span {
   color: #FFFFFF; }
 
-/* line 78, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 78, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading .accordion-toggle.active span,
 .accordion-heading:hover .accordion-toggle.inactive span {
   color: #FFFFFF; }
 
-/* line 83, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 83, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading.accordionize .accordion-toggle.active span,
 .accordion-heading.togglize .accordion-toggle.active span {
   -webkit-transform: rotate(180deg);
@@ -976,35 +976,35 @@ section {
   -o-transform: rotate(180deg);
   transform: rotate(180deg); }
 
-/* line 91, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 91, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading.togglize .accordion-toggle span {
   margin: -8px 0 0 0;
   font-size: 18px; }
 
-/* line 96, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 96, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading.togglize .accordion-toggle.active span {
   opacity: 0;
   filter: alpha(opacity=0); }
 
-/* line 101, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 101, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-heading.togglize .accordion-toggle.active span + span {
   opacity: 1;
   filter: alpha(opacity=100); }
 
-/* line 106, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 106, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .accordion-inner {
   background: #424140;
   color: #d0c9b5;
   padding: 16px 20px;
   border: none; }
-  /* line 112, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+  /* line 112, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
   .accordion-inner a {
     color: #e27f2e; }
-    /* line 114, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+    /* line 114, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
     .accordion-inner a:hover {
       color: #e89a5b; }
 
-/* line 121, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 121, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .collapse {
   position: relative;
   height: 0;
@@ -1014,17 +1014,17 @@ section {
   -o-transition: height 0.35s ease;
   transition: height 0.35s ease; }
 
-/* line 130, c:/dev/nothinbutchange/sass/1-base/_accordian.scss */
+/* line 130, C:/dev/nothinbutchange/sass/1-base/_accordian.scss */
 .collapse.in {
   height: auto; }
 
-/* line 3, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
 #landing-section .no-stick {
   max-width: 1100px;
   width: 100%;
   margin: 0 auto; }
 
-/* line 7, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+/* line 7, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
 #landing-section .sticky-nav {
   width: 100%;
   z-index: 1001;
@@ -1033,27 +1033,27 @@ section {
   background: #424140;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25); }
 
-/* line 14, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+/* line 14, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
 #landing-section .sticky-nav.stuck {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1001; }
-  /* line 19, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  /* line 19, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
   #landing-section .sticky-nav.stuck .logo {
     background: url(../img/icon.svg);
       background-repeat: no-repeat;
     height: 50px;
     margin: auto 2em; }
-  /* line 24, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  /* line 24, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
   #landing-section .sticky-nav.stuck ul {
     margin: auto 1.5em; }
 
-/* line 26, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+/* line 26, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
 #landing-section .navbar {
   display: flex;
   justify-content: space-between; }
-  /* line 29, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  /* line 29, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
   #landing-section .navbar .logo {
     width: 25%;
     height: 80px;
@@ -1063,7 +1063,7 @@ section {
     background-size: contain;
     background-position: left center; }
   @media (max-width: 580px) {
-    /* line 38, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+    /* line 38, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
     #landing-section .navbar .logo {
       width: 10%;
       height: 50px;
@@ -1072,76 +1072,76 @@ section {
         background-repeat: no-repeat;
         background-size: contain;
         background-position: left center; } }
-  /* line 46, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  /* line 46, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
   #landing-section .navbar ul {
     list-style: none;
     margin: auto 0; }
-    /* line 49, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+    /* line 49, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
     #landing-section .navbar ul li {
       display: inline;
       margin: 0 20px; }
-      /* line 52, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+      /* line 52, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
       #landing-section .navbar ul li a {
         font-family: 'Kalam', sans-serif;
         font-size: 1.5rem;
         color: #e4e0d4;
         transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
-        /* line 57, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+        /* line 57, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
         #landing-section .navbar ul li a:hover {
           color: #e27f2e;
           padding-bottom: 2px;
           border-bottom: 2px solid; }
 
-/* line 61, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+/* line 61, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
 #landing-section .landing-hero {
   display: flex;
   align-items: center;
   margin-top: 60px; }
-  /* line 65, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  /* line 65, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
   #landing-section .landing-hero .hero-video {
     position: relative;
     display: flex;
     width: 50%;
     height: 0px;
     padding-right: 2em; }
-  /* line 71, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  /* line 71, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
   #landing-section .landing-hero .hero-text {
     font-size: 1rem;
     width: 50%;
     margin-left: 1.5em;
     padding: 0 1em;
     text-align: left; }
-    /* line 77, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+    /* line 77, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
     #landing-section .landing-hero .hero-text .hero-head {
       line-height: 0; }
 
 @media (max-width: 1160px) {
-  /* line 82, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+  /* line 82, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
   #landing-section .landing-hero {
     flex-wrap: wrap; }
-    /* line 84, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+    /* line 84, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
     #landing-section .landing-hero .hero-video {
       width: 80%;
       margin: 0 auto 2em;
       padding-bottom: 46.5%; }
-    /* line 88, c:/dev/nothinbutchange/sass/2-sections/_landing.sass */
+    /* line 88, C:/dev/nothinbutchange/sass/2-sections/_landing.sass */
     #landing-section .landing-hero .hero-text {
       width: 100%; } }
 
-/* line 3, c:/dev/nothinbutchange/sass/2-sections/_about.sass */
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
 #about-section section#about .head {
   margin: 0 auto;
   width: 100%;
   text-align: center;
   overflow: hidden; }
-  /* line 8, c:/dev/nothinbutchange/sass/2-sections/_about.sass */
+  /* line 8, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
   #about-section section#about .head h1 {
     margin: 0.3125em 0;
     background-color: #e4e0d4;
     position: relative;
     display: inline-block;
     padding: 0 10px; }
-    /* line 14, c:/dev/nothinbutchange/sass/2-sections/_about.sass */
+    /* line 14, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
     #about-section section#about .head h1:before {
       content: "";
       height: 5px;
@@ -1150,7 +1150,7 @@ section {
       width: 100%;
       top: 40%;
       left: -110%; }
-    /* line 24, c:/dev/nothinbutchange/sass/2-sections/_about.sass */
+    /* line 24, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
     #about-section section#about .head h1:after {
       content: "";
       height: 5px;
@@ -1160,34 +1160,34 @@ section {
       top: 40%;
       left: 110%; }
 
-/* line 34, c:/dev/nothinbutchange/sass/2-sections/_about.sass */
+/* line 34, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
 #about-section section#about h2.subhead {
   color: #45629c; }
 
-/* line 36, c:/dev/nothinbutchange/sass/2-sections/_about.sass */
+/* line 36, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
 #about-section section#about a {
   color: #e27f2e;
   text-decoration: none;
   outline: 0;
   transition: color 150ms ease-in-out; }
-  /* line 41, c:/dev/nothinbutchange/sass/2-sections/_about.sass */
+  /* line 41, C:/dev/nothinbutchange/sass/2-sections/_about.sass */
   #about-section section#about a:hover, #about-section section#about a:focus {
     color: #eeb688; }
 
-/* line 3, c:/dev/nothinbutchange/sass/2-sections/_shop.sass */
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
 #shop-section section#shop .head {
   margin: 0 auto;
   width: 100%;
   text-align: center;
   overflow: hidden; }
-  /* line 8, c:/dev/nothinbutchange/sass/2-sections/_shop.sass */
+  /* line 8, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
   #shop-section section#shop .head h1 {
     margin: 0.3125em 0;
     background-color: #5c5b59;
     position: relative;
     display: inline-block;
     padding: 0 10px; }
-    /* line 14, c:/dev/nothinbutchange/sass/2-sections/_shop.sass */
+    /* line 14, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
     #shop-section section#shop .head h1:before {
       content: "";
       height: 5px;
@@ -1196,7 +1196,7 @@ section {
       width: 100%;
       top: 40%;
       left: -110%; }
-    /* line 24, c:/dev/nothinbutchange/sass/2-sections/_shop.sass */
+    /* line 24, C:/dev/nothinbutchange/sass/2-sections/_shop.sass */
     #shop-section section#shop .head h1:after {
       content: "";
       height: 5px;
@@ -1206,20 +1206,20 @@ section {
       top: 40%;
       left: 110%; }
 
-/* line 3, c:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
 #gallery-section section#gallery .head {
   margin: 0 auto;
   width: 100%;
   text-align: center;
   overflow: hidden; }
-  /* line 8, c:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+  /* line 8, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
   #gallery-section section#gallery .head h1 {
     margin: 0.3125em 0;
     background-color: #5c5b59;
     position: relative;
     display: inline-block;
     padding: 0 10px; }
-    /* line 14, c:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+    /* line 14, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
     #gallery-section section#gallery .head h1:before {
       content: "";
       height: 5px;
@@ -1228,7 +1228,7 @@ section {
       width: 100%;
       top: 40%;
       left: -110%; }
-    /* line 24, c:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+    /* line 24, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
     #gallery-section section#gallery .head h1:after {
       content: "";
       height: 5px;
@@ -1238,20 +1238,35 @@ section {
       top: 40%;
       left: 110%; }
 
-/* line 34, c:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+/* line 34, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
 #gallery-section section#gallery .gallery-wrapper {
-  text-align: center; }
-  /* line 36, c:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
-  #gallery-section section#gallery .gallery-wrapper img {
-    height: 100px; }
+  text-align: center;
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  /* line 40, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+  #gallery-section section#gallery .gallery-wrapper a {
+    clear: both;
+    margin: 1em 0; }
+    /* line 43, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+    #gallery-section section#gallery .gallery-wrapper a img {
+      height: 100px;
+      border-radius: 5px;
+      opacity: 0.6;
+      transition: all 300ms ease-in-out; }
+      /* line 48, C:/dev/nothinbutchange/sass/2-sections/_gallery.sass */
+      #gallery-section section#gallery .gallery-wrapper a img:hover {
+        opacity: 1;
+        box-shadow: 0px 5px 0px 0px #e27f2e; }
 
-/* line 3, c:/dev/nothinbutchange/sass/2-sections/_faq.sass */
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
 #faq-section section#faq .head {
   margin: 0 auto;
   width: 100%;
   text-align: center;
   overflow: hidden; }
-  /* line 8, c:/dev/nothinbutchange/sass/2-sections/_faq.sass */
+  /* line 8, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
   #faq-section section#faq .head h1 {
     margin: 0.3125em 0;
     background-color: #e4e0d4;
@@ -1259,7 +1274,7 @@ section {
     display: inline-block;
     padding: 0 10px;
     margin-bottom: 70px; }
-    /* line 15, c:/dev/nothinbutchange/sass/2-sections/_faq.sass */
+    /* line 15, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
     #faq-section section#faq .head h1:before {
       content: "";
       height: 5px;
@@ -1268,7 +1283,7 @@ section {
       width: 100%;
       top: 40%;
       left: -110%; }
-    /* line 25, c:/dev/nothinbutchange/sass/2-sections/_faq.sass */
+    /* line 25, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
     #faq-section section#faq .head h1:after {
       content: "";
       height: 5px;
@@ -1278,25 +1293,25 @@ section {
       top: 40%;
       left: 110%; }
 
-/* line 35, c:/dev/nothinbutchange/sass/2-sections/_faq.sass */
+/* line 35, C:/dev/nothinbutchange/sass/2-sections/_faq.sass */
 #faq-section section#faq .follow {
   margin-top: 80px;
   text-align: center; }
 
-/* line 3, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+/* line 3, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
 #contact-section section#contact .head {
   margin: 0 auto;
   width: 100%;
   text-align: center;
   overflow: hidden; }
-  /* line 8, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+  /* line 8, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
   #contact-section section#contact .head h1 {
     margin: 0.3125em 0;
     background-color: #5c5b59;
     position: relative;
     display: inline-block;
     padding: 0 10px; }
-    /* line 14, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    /* line 14, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
     #contact-section section#contact .head h1:before {
       content: "";
       height: 5px;
@@ -1305,7 +1320,7 @@ section {
       width: 100%;
       top: 40%;
       left: -110%; }
-    /* line 24, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    /* line 24, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
     #contact-section section#contact .head h1:after {
       content: "";
       height: 5px;
@@ -1314,17 +1329,17 @@ section {
       width: 100%;
       top: 40%;
       left: 110%; }
-  /* line 34, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+  /* line 34, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
   #contact-section section#contact .head h2 {
     font-size: 1.2em; }
 
-/* line 36, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+/* line 36, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
 #contact-section section#contact .span3 {
   width: 25%;
   float: left;
   box-sizing: border-box;
   padding: 20px; }
-  /* line 42, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+  /* line 42, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
   #contact-section section#contact .span3 .contact-details h3 {
     font-family: 'Lato', sans-serif;
     font-size: 1.3em;
@@ -1332,37 +1347,37 @@ section {
     margin-bottom: 30px;
     line-height: 1em;
     text-transform: uppercase; }
-  /* line 49, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+  /* line 49, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
   #contact-section section#contact .span3 .contact-details ul {
     margin: 0;
     padding: 0;
     list-style: none; }
-    /* line 53, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    /* line 53, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
     #contact-section section#contact .span3 .contact-details ul li {
       margin: 0 0 20px;
       line-height: 28px;
       padding: 0; }
-      /* line 57, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+      /* line 57, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
       #contact-section section#contact .span3 .contact-details ul li a {
         color: #e27f2e; }
-        /* line 59, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+        /* line 59, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
         #contact-section section#contact .span3 .contact-details ul li a:hover {
           color: #eeb688; }
 
-/* line 61, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+/* line 61, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
 #contact-section section#contact .span9 {
   width: 75%;
   float: left;
   box-sizing: border-box;
   padding: 20px; }
-  /* line 66, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+  /* line 66, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
   #contact-section section#contact .span9 #contact-form {
     margin-bottom: 0; }
-    /* line 68, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    /* line 68, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
     #contact-section section#contact .span9 #contact-form p {
       margin-bottom: 1px;
       margin-top: 0px; }
-    /* line 71, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    /* line 71, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
     #contact-section section#contact .span9 #contact-form input, #contact-section section#contact .span9 #contact-form textarea {
       border: none;
       -webkit-border-radius: 0;
@@ -1378,13 +1393,13 @@ section {
       padding: 15px;
       margin: 0;
       resize: none; }
-    /* line 86, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    /* line 86, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
     #contact-section section#contact .span9 #contact-form input {
       width: 100%;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
-    /* line 91, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    /* line 91, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
     #contact-section section#contact .span9 #contact-form textarea {
       width: 100%;
       resize: vertical;
@@ -1392,54 +1407,54 @@ section {
       -moz-box-sizing: border-box;
       box-sizing: border-box;
       margin-bottom: 2em; }
-    /* line 98, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    /* line 98, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
     #contact-section section#contact .span9 #contact-form .submit {
       padding: 0.8em 1.7em;
       color: #5c5b59;
       background-color: #e4e0d4;
       box-shadow: 0px 8px 0px #e27f2e;
       transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
-      /* line 104, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+      /* line 104, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
       #contact-section section#contact .span9 #contact-form .submit:hover {
         color: #e27f2e;
         box-shadow: none; }
-    /* line 107, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+    /* line 107, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
     #contact-section section#contact .span9 #contact-form #response {
       margin-top: 20px;
       color: #FFFFFF; }
 
 @media (max-width: 1050px) {
-  /* line 114, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+  /* line 114, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
   #contact-section section#contact .span3 {
     width: 100%;
     float: none;
     display: none; }
-  /* line 118, c:/dev/nothinbutchange/sass/2-sections/_contact.sass */
+  /* line 118, C:/dev/nothinbutchange/sass/2-sections/_contact.sass */
   #contact-section section#contact .span9 {
     width: 100%;
     float: none; } }
 
-/* line 1, c:/dev/nothinbutchange/sass/2-sections/_social.sass */
+/* line 1, C:/dev/nothinbutchange/sass/2-sections/_social.sass */
 #social-area {
   text-align: center; }
 
-/* line 4, c:/dev/nothinbutchange/sass/2-sections/_social.sass */
+/* line 4, C:/dev/nothinbutchange/sass/2-sections/_social.sass */
 #social-area #social ul {
   margin: 0;
   padding: 0; }
 
-/* line 8, c:/dev/nothinbutchange/sass/2-sections/_social.sass */
+/* line 8, C:/dev/nothinbutchange/sass/2-sections/_social.sass */
 #social-area #social ul li {
   display: inline-block;
   margin-left: 30px;
   list-style: none;
   cursor: pointer; }
 
-/* line 14, c:/dev/nothinbutchange/sass/2-sections/_social.sass */
+/* line 14, C:/dev/nothinbutchange/sass/2-sections/_social.sass */
 #social-area #social ul li:first-child {
   margin-left: 0; }
 
-/* line 17, c:/dev/nothinbutchange/sass/2-sections/_social.sass */
+/* line 17, C:/dev/nothinbutchange/sass/2-sections/_social.sass */
 #social ul li a {
   display: block;
   width: 70px;
@@ -1448,7 +1463,7 @@ section {
   box-shadow: 0px 5px 0px #e27f2e;
   transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
 
-/* line 25, c:/dev/nothinbutchange/sass/2-sections/_social.sass */
+/* line 25, C:/dev/nothinbutchange/sass/2-sections/_social.sass */
 #social ul li a span {
   display: inline-block;
   margin: 0;
@@ -1458,28 +1473,28 @@ section {
   opacity: 0.3;
   transition: all 300ms cubic-bezier(0.42, 0, 0.21, 2.01); }
 
-/* line 35, c:/dev/nothinbutchange/sass/2-sections/_social.sass */
+/* line 35, C:/dev/nothinbutchange/sass/2-sections/_social.sass */
 #social ul li:hover a,
 #social ul li.active a {
   box-shadow: 0px 5px 0px #e4e0d4; }
 
-/* line 39, c:/dev/nothinbutchange/sass/2-sections/_social.sass */
+/* line 39, C:/dev/nothinbutchange/sass/2-sections/_social.sass */
 #social ul li:hover a span,
 #social ul li.active a span {
   color: #e27f2e;
   opacity: 1; }
 
-/* line 1, c:/dev/nothinbutchange/sass/2-sections/_footer.sass */
+/* line 1, C:/dev/nothinbutchange/sass/2-sections/_footer.sass */
 footer {
   background-color: #5c5b59;
   color: #e4e0d4;
   text-align: center;
   padding-bottom: 3em;
   text-transform: uppercase; }
-  /* line 7, c:/dev/nothinbutchange/sass/2-sections/_footer.sass */
+  /* line 7, C:/dev/nothinbutchange/sass/2-sections/_footer.sass */
   footer a {
     color: #e27f2e; }
-    /* line 9, c:/dev/nothinbutchange/sass/2-sections/_footer.sass */
+    /* line 9, C:/dev/nothinbutchange/sass/2-sections/_footer.sass */
     footer a:hover {
       color: #eeb688; }
 
