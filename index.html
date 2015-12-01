@@ -19,7 +19,7 @@
       <div class="logo"></div>
       <ul>
         <li><a class="scroll" href="#about-section">About</a></li>
-<!--        <li><a class="scroll" href="#shop-section">Shop</a></li>-->
+        <li><a class="scroll" href="#shop-section">Shop</a></li>
         <li><a class="scroll" href="#gallery-section">Gallery</a></li>
         <li><a class="scroll" href="#faq-section">FAQ</a></li>
         <li><a class="scroll" href="#contact-section">Contact</a></li>
@@ -57,15 +57,50 @@
     </section>
   </div>
 
-  <!--
   <div id="shop-section" class="dark">
     <section id="shop">
-      <div class="head"><h1>Shop</h1></div>
+      <div class="head">
+        <h1>Shop</h1>
+        <p>Buy our one of a kind custom Nothin' but Change T-Shirt as well as some of the apparel from our partners!</p>
+      </div>
+      <div class="shop-wrapper">
+        <div class="item">
+         <h3>Nothin' but Change T-Shirt</h3>
+          <img src="img/shop/shirt.png">
+          <hr>
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+          <input type="hidden" name="cmd" value="_cart" />
+          <input type="hidden" name="add" value="1" />
+          <input type="hidden" name="business" value="hussain@hussainabbas.com" />
+          <input type="hidden" name="item_name" value="Nothin' but Change T-Shirt" />
+          <input type="hidden" name="quantity" value="1" />
+          <input type="hidden" name="currency_code" value="CAD" />
+          <input type="hidden" name="return" value="http://nothinbutchange.com/?success" />
+          <input type="hidden" name="cancel_return" value="http://nothinbutchange.com/?cancel" />
+          <table>
+          <tr class="hidden"><td><input type="hidden" name="on0" value="Shipping/Pickup">Shipping/Pickup</td></tr><tr><td><select name="os0">
+              <option value="Pickup">Pickup - $20.00 CAD</option>
+              <option value="Shipping">Shipping - $30.00 CAD</option>
+          </select> </td></tr>
+          <tr class="hidden"><td><input type="hidden" name="on1" value="Sizes">Sizes</td></tr><tr><td><select name="os1">
+              <option value="XS">Extra Small (XS)</option>
+              <option value="S">Small (S)</option>
+              <option value="M">Medium (M)</option>
+              <option value="L">Large (L)</option>
+              <option value="XL">Extra Large (XL)</option>
+          </select> </td></tr>
+          </table>
+          <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+          ">
+          <input type="submit" value="Add to Cart" name="submit" title="PayPal - The safer, easier way to pay online!" class="paypal_btn">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+      </div>
     </section>
   </div>
-  -->
 
-  <div id="gallery-section" class="dark">
+  <div id="gallery-section" class="light">
     <section id="gallery">
       <div class="head">
         <h1>Gallery</h1>
@@ -83,7 +118,7 @@
     </section>
   </div>
 
-  <div id="faq-section" class="light">
+  <div id="faq-section" class="dark">
     <section id="faq" class="clearfix">
       <div class="head">
         <h1>Frequently Asked Questions</h1>
@@ -187,7 +222,7 @@
     </section>
   </div>
 
-  <div id="contact-section" class="dark">
+  <div id="contact-section" class="light">
     <section id="contact" class="clearfix">
       <div class="head">
         <h1>Contact Us</h1>
@@ -230,7 +265,7 @@
     </section>
   </div>
 
-  <div class="light" id="social-area">
+  <div id="social-area" class="dark">
     <section id="social">
       <ul>
         <li><a href="https://twitter.com/nothinbutchang3" title="Follow Me on Twitter" target="_blank"><span class="icon-twitter"></span></a></li>
@@ -248,6 +283,10 @@
   <script src="js/lib/bootstrap.min.js"></script>
   <script src="js/lib/lightbox.js"></script>
   <script src="js/scripts.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/minicart/3.0.6/minicart.min.js"></script>
+  <script>
+    paypal.minicart.render();
+  </script>
 </body>
 
 </html>

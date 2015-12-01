@@ -22,8 +22,8 @@
   position: relative;
     display: block;
     padding: 15px;
-  background: $dark;
-  color: $light;
+  background: $light;
+  color: $dark;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
@@ -51,7 +51,7 @@
 }
 
 .accordion-heading .accordion-toggle.inactive {
-  background: $dark;
+  background: $light;
 }
 
 .accordion-heading.accordionize .accordion-toggle span,
@@ -60,7 +60,7 @@
     top: 50%;
     right: 20px;
     margin: -8px 0 0 0;
-    color: $light;
+    color: $dark;
     font-size: 18px;
 
   -webkit-transition: all 0.1s linear 0s;
