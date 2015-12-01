@@ -43,6 +43,8 @@
           repeat: no-repeat
           size: contain
           position: left center
+    .hamburger-menu
+      display: none
     ul
       list-style: none
       margin: auto 0
@@ -87,3 +89,25 @@
         padding-bottom: 46.5%
       .hero-text
         width: 100%
+@media (max-width: 860px)
+  #landing-section .navbar
+    flex-wrap: wrap
+    .hamburger-menu
+      display: block
+    ul
+      display: none
+      width: 100%
+      text-align: center
+      margin-top: 10px !important
+      li
+        margin: 0
+        a
+          display: block
+          background-color: lighten($dark, 10%)
+          padding: 0.5em
+          border-top: 1px solid rgba(white,0.3)
+          &:hover
+            padding-bottom: 0.5em
+            border-bottom: none
+            color: $light
+            background-color: $orange

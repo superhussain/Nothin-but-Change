@@ -6,6 +6,7 @@
     scrollToTop();
     accordian();
     contactForm();
+    hamburger();
   });
 })(jQuery);
 
@@ -108,4 +109,11 @@ contactForm = function () {
     });
     return false;
   });
+}
+
+hamburger = function() {
+  $('.hamburger-menu').on('click', function() {
+    $('.bar').toggleClass('animate');
+    $('#landing-section .navbar ul').slideToggle('slow');
+  })
 }
