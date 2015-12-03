@@ -1,9 +1,9 @@
-$bar-width: 50px;
-$bar-height: 4px;
-$bar-spacing: 10px;
+$bar-width: 30px;
+$bar-height: 2px;
+$bar-spacing: 8px;
 
 .hamburger-menu {
-  margin: auto 2em;
+  margin: auto 10px;
   width: $bar-width;
   height: $bar-height + $bar-spacing*2;
   cursor: pointer;

@@ -20,23 +20,25 @@
       background: url(../img/icon.svg)
         repeat: no-repeat
       height: 50px
-      margin: auto 2em
+      margin: auto 1.5em
+    .hamburger-menu
+      margin: auto 1.5em
     ul
       margin: auto 1.5em
   .navbar
     display: flex
     justify-content: space-between
     .logo
-      width: 25%
+      width: 40%
       height: 80px
       cursor: pointer
       background: url(../img/logo-v2.svg)
       background-repeat: no-repeat
       background-size: contain
       background-position: left center
-    @media (max-width: 580px)
+    @media (max-width: 400px)
       .logo
-        width: 10%
+        width: 25%
         height: 50px
         margin: auto 0
         background: url(../img/icon.svg)
@@ -111,3 +113,7 @@
             border-bottom: none
             color: $light
             background-color: $orange
+@media (max-width: 600px)
+  #landing-section .landing-hero .hero-text
+    margin: 0
+    padding: 0
