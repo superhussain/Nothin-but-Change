@@ -34,21 +34,23 @@
     .shop-wrapper
       margin-top: 2em
       display: flex
-      justify-content: space-around
+      flex-wrap: wrap
+      justify-content: space-between
+      align-items: center
       h3
         color: $light
         margin: 0.5em 0 0
       .item
-        background-color: lighten($dark, 10%)
-        padding: 1em
+        background-color: lighten($dark, 5%)
+        padding: 0.5em
         border-radius: 1em
         text-align: center
-        width: 60%
+        width: 25%
         img
-          width: 200px
+          width: 120px
           border-radius: 50%
           margin: 1em
-          border: 10px solid $light
+          border: 5px solid $light
           box-shadow: 0px 5px 10px rgba(black,0.3)
           transition: all 300ms ease-in-out
           &:hover
@@ -82,9 +84,25 @@
             &:hover
               color: $orange
               box-shadow: none
+      .center
+        background-color: lighten($dark, 10%)
+        padding: 1em
+        width: 40%
+        img
+          width: 200px
+@media (max-width: 900px)
+  #shop-section section#shop .shop-wrapper
+    .item, .center
+      width: 100%
+      padding: 1em
+      margin: 2em
+      img
+        width: 200px
+    .center
+      order: -1
 @media (max-width: 550px)
   #shop-section section#shop .shop-wrapper .item
-    width: 100%
+    margin: 1em 0
     padding: 0.5em
     img
-      width: 150px
+      width: 120px
