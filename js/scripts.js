@@ -128,5 +128,6 @@ paypalReturn = function() {
   var pathname = window.location.search
   if (pathname == "?success" || pathname == "?cancel") {
     paypal.minicart.reset();
+    paypal.minicart.render();
   }
 }
