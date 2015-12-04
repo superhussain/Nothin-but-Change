@@ -18,7 +18,7 @@ function errorLog(error) {
 
 // scripts task
 gulp.task('scripts', function() {
-  gulp.src('js/*.js')
+  gulp.src('js/**/*.js')
   .pipe(uglify())
   .on('error', errorLog)
   .pipe(gulp.dest('build/js'));

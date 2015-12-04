@@ -7,6 +7,8 @@
     accordian();
     contactForm();
     hamburger();
+    minicart();
+    paypalReturn();
   });
 })(jQuery);
 
@@ -116,4 +118,15 @@ hamburger = function() {
     $('.bar').toggleClass('animate');
     $('#landing-section .navbar ul').slideToggle('slow');
   })
+}
+
+minicart = function() {
+  paypal.minicart.render();
+}
+
+paypalReturn = function() {
+  var pathname = window.location.search
+  if (pathname == "?success" || pathname == "?cancel") {
+    paypal.minicart.reset();
+  }
 }
